@@ -37,6 +37,6 @@ public class User {
 
     @Override
     public String toString() {
-        return firstName + " " + lastName + " wiek: " + age + "<br/>";
+        return firstName + " " + lastName + " wiek: " + age;
     }
 }

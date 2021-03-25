@@ -24,6 +24,7 @@ public class UserController {
         StringBuilder result = new StringBuilder();
         for (User user : listUsers) {
             result.append(user);
+            result.append("<br/>");
         }
         return result.toString();
     }
